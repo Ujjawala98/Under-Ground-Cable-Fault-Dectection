@@ -7,8 +7,8 @@
 const int buttons[9] = {12, 13, 27, 33, 25, 26, 34, 35,32}; // 9 buttons 
 #define DHTPIN 4 
 #define DHTTYPE DHT11 
-// --- OBJECTS --- 
-DHT dht(DHTPIN, DHTTYPE); 
+// --- OBJECTS --- //ujjawala
+DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(0x27, 16, 2); 
 WebServer server(80); 
 // --- WiFi Credentials (AP MODE) --- 
